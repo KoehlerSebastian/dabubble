@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.fs3-b{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.flex-align-center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-justify-center{
+    display: flex;
+    justify-content: center;
+}

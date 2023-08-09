@@ -1,0 +1,11 @@
+<div class="outer" *ngIf="!isWindowWidthLessThan650()">
+    <img src="assets/img/intro/intro-logo.svg" class="image">
+    <h1 class="text">DABubble </h1>
+</div>
+<div class="outerMobile" *ngIf="isWindowWidthLessThan650()">
+    <img src="assets/img/intro/intro-logo.svg" class="imageMobile">
+    <h1 class="textMobile">DABubble </h1>
+</div>
+
+<div class="layover" *ngIf="!isWindowWidthLessThan650()"></div>
+<div class="layoverMobile" *ngIf="isWindowWidthLessThan650()"></div>
